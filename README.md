@@ -2,15 +2,10 @@
 
 A simple Electron desktop wrapper for [mean-verbs.vercel.app](https://mean-verbs.vercel.app/).
 
-## Features
-
-- Cross-platform desktop app for Windows (Electron)
-- Custom app icon
-- Easy to build and run
-
 ## Screenshots
 
-![App Screenshot](screenshot.png) <!-- Add your screenshot here if you want -->
+![App Screenshot](<img width="778" height="667" alt="image" src="https://github.com/user-attachments/assets/90228a59-344d-4e39-8e97-7eacf756d62f" />
+
 
 ## How to Build and Run
 
@@ -53,22 +48,5 @@ npm run dist
 - [electron-packager](https://github.com/electron/electron-packager) - For portable builds
 - [electron-builder](https://www.electron.build/) - For creating installers
 
-## Project Structure
 
-```
-/ (project root)
-  |-- src/              # App icon and static assets
-  |-- main.js           # Electron main process
-  |-- package.json      # Project config and scripts
-  |-- .gitignore        # Git ignore rules
-```
 
-## Notes
-
-- The app icon must be a `.ico` file with 256x256 size for best results.
-- Windows may warn about "unknown publisher" unless you code-sign your installer.
-- This project is for educational/demo purposes and wraps an external website.
-
----
-
-Feel free to fork, modify, and share!
