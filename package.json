@@ -1,0 +1,30 @@
+{
+  "name": "mean_verbs",
+  "version": "1.0.0",
+  "main": "main.js",
+  "description": "Know the pronuntiation of the works",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^30.0.0",
+    "electron-builder": "^26.0.12",
+    "electron-packager": "^17.1.2"
+  },
+  "build": {
+    "appId": "com.meanverbs.app",
+    "productName": "Mean Verbs",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "**/*"
+    ],
+    "win": {
+      "icon": "src/favicon.ico",
+      "target": "nsis"
+    }
+  }
+}

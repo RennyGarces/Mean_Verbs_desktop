@@ -1,0 +1,6 @@
+node_modules/
+dist/
+mean_verbs-win32-x64/
+.env
+.DS_Store
+*.log
